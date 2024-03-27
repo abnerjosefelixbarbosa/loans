@@ -1,5 +1,6 @@
 package com.backend.java.backendjava.entities;
 
+import com.backend.java.backendjava.dtos.requests.LoanRequest;
 import jakarta.persistence.*;
 
 import java.io.Serializable;

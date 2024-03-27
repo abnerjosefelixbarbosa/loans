@@ -1,5 +1,7 @@
 package com.backend.java.backendjava.entities;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
@@ -7,6 +9,7 @@ import java.util.Set;
 
 public class Loan implements Serializable {
     private Type type;
+    @JsonProperty("interest_rate")
     private Long interestRate;
 
     public Loan() {}

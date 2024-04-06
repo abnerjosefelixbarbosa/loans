@@ -14,7 +14,6 @@
 - SOLID.
 - Lombok.
 - Swegger 3.
-- H2 database.
 
 # Project execution
 
